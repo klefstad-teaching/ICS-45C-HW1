@@ -225,11 +225,11 @@ The autograder program will compile your files using g++ (the same version as th
 
 ## Build Instructions
 
-If you are not already in a terminal (i.e., SSH with OpenLab), you will need
+If you are not already in a terminal, you will need
 to open a terminal and move into your project folder as show below:
 
 ```bash
-cd <YourProjectPath>    # Most likely, this would be: cd ~/ICS45c
+cd <YourProjectPath>
 ```
 
 This time, we are going to go into a little more detail on how `CMake` works. The `CMake` process is
