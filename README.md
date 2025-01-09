@@ -16,6 +16,27 @@ git clone git@github.com:klefstad-teaching/ics-45c-hw1-<GitHubUserName>.git HW1
 ```
 7. Go to VSCode and open up the `HW1` Folder
 
+## Directory Structure
+
+For all the GTests to work and for the autograder to work as intented the directory structure must remain the same:
+
+```bash
+├── CMakeLists.txt
+├── CMakePresets.json
+├── gtest
+│   ├── gtestmain.cpp
+│   ├── count_gtests.cpp
+│   ├── knot_gtests.cpp
+│   └── stack_gtests.cpp
+└── src
+    ├── convert_knots.cpp
+    ├── convert_knots.hpp
+    ├── letter_count.cpp
+    ├── letter_count.hpp
+    ├── stack.cpp
+    └── stack.hpp
+```
+
 ## Overview and Objectives
 
 Homework 1 consists of writing 3 small programs in C++:
