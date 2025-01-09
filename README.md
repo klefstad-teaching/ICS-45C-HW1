@@ -192,7 +192,7 @@ Z 9
 
 ## Build and run
 
-To compile, follow the Build instructions [here](#buildiInstructions). 
+To compile, follow the Build instructions [here](#build-instructions). 
 
 ### Sample input and output files for letter_count
  - Sample input file named [sample_doc.txt](https://ics.uci.edu/~klefstad/public/45c/sample_doc.txt) (provided here in src/)
@@ -208,7 +208,7 @@ With the sample input and output files, use the following command to run `letter
 
 Before you submit to GradeScope, test your `lettercount` program with GTests, which will also be used by the autograder. Use the `count_gtests.cpp` file in this repo.
 
-Once your `stack` program seems to be working correctly, submit it to GradeScope for autograding, following the instructions [here](#buildiInstructions).
+Once your `stack` program seems to be working correctly, submit it to GradeScope for autograding, following the instructions [here](#build-instructions).
 
 ## How to Submit
 
