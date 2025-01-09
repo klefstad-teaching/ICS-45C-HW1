@@ -3,6 +3,19 @@
 Unit conversion, character stack, & letter count
 Refresh your browser tab frequently to see any updates or changes (highlighted)
 
+## Getting the assignment
+
+1. Accept the assignment by click the link in canvas
+2. Once you accept the invite you will reach a page that says "You're ready to go"
+3. Clik the url from that page that looks similar to this: `https://github.com/klefstad-teaching/ics-45c-hw1-<GitHubUsername>`, it may take a bit of time for the repo to be ready.
+4. There will be a green `<> Code` Button on the top right, click that and then click the middle tab `SSH`
+5. Copy that link
+6. Go to your hub and go into the ICS45C folder, and open up the terminal and type in the following command:
+```bash
+git clone git@github.com:klefstad-teaching/ics-45c-hw1-<GitHubUserName>.git HW1
+```
+7. Go to VSCode and open up the `HW1` Folder
+
 ## Overview and Objectives
 
 Homework 1 consists of writing 3 small programs in C++:
