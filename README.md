@@ -378,6 +378,6 @@ as shown below:
 
 Now the autograder will run and give you a score!
 
+## Credit
 
 All code moved from [ICS45c](https://github.com/RayKlefstad/ICS45c/tree/hw1)
-
