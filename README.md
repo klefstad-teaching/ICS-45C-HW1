@@ -262,8 +262,12 @@ The autograder program will compile your files using g++ (the same version as th
 If you are not already in a terminal, you will need
 to open a terminal and move into your project folder as show below:
 
+
+**IMPORTANT**
+You will need to make sure you have `Gtest` installed
+
 ```bash
-cd <YourProjectPath>
+sudo apt-get install -y libgtest-dev libgmock-dev
 ```
 
 This time, we are going to go into a little more detail on how `CMake` works. The `CMake` process is
