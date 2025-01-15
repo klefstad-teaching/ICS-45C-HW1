@@ -358,17 +358,18 @@ all provided tests, congratulations! You are now ready to [submit](#submission) 
 All submissions will be done through [GradeScope](https://www.gradescope.com/). Open the GradeScope page
 and select `HW1`.
 
-First, we need to make sure that we commit all of our changes we made! In a terminal inside your project folder,
+First, we need to make sure that we stage and commit all of our changes we made! In a terminal inside your project folder,
 run the following command:
 
 ```bash
+git add .
 git commit -a -m "Submission commit of HW1."
 ```
 
 Now that we have committed out changes, we need to push them to `GitHub` so that `Gradescope` can see them.
 
 ```bash
-git push -u my_repo
+git push --set-upstream origin main
 ```
 
 Now on GradeScope, press the submit button, choose the `GitHub` option, and select your project and branch
